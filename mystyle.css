@@ -2,7 +2,36 @@ body {
     background-color: linen;
 }
 
+*{
+    font-family: "Verdana", Times, serif;
+}
 h1 {
-    color: maroon;
-    margin-left: 40px;
+
+    
+    color: lightblue;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgrey;
+    padding: 10px;
+    margin: 20%;
+    margin-top: 10%;
+    margin-bottom: 10px;
 } 
+
+button {
+    margin-left: 20%;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: aquamarine;
+    border-color: grey;
+    color: brown;
+}
