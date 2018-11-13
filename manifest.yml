@@ -1,0 +1,5 @@
+applications:
+ - name: eager-mirzakhani
+   memory: 256M
+   host: eager-mirzakhani
+   buildpack: staticfile_buildpack
